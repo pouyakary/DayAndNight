@@ -19,8 +19,8 @@ A simple macOS application that sits on your dock and toggles the system appeara
 >
 > ```applescript
 > tell application "System Events"
-> 	tell appearance preferences
->		set dark mode to not dark mode
->	end tell
+>   tell appearance preferences
+>	    set dark mode to not dark mode
+>	  end tell
 > end tell
 > ```

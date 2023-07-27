@@ -13,14 +13,18 @@ A simple macOS application that sits on your dock and toggles the system appeara
 
 <br><br>
 
-> __Not Open Source Per Say__
-> 
-> The distribution binary is not an open source software in itself, since I had to sign it and didn't want others to be able to change what I had signed. However the app is only 5 lines of code so if you don't trust the binary, you can copy paste these fives lines into the Script Editor.app software and export it to an Application:
->
-> ```applescript
-> tell application "System Events"
->   tell appearance preferences
->	    set dark mode to not dark mode
->	  end tell
-> end tell
-> ```
+__Not Accepting Contributions__
+
+This app is way to simple to deserve long time maintenance. It's only a nice icon for a simple command. To make this simpler, I have archived this repository to set it in stone. But I use this daily and if something breaks I may fix it. Being archived doesn't mean that it's broken or old.
+
+__Not Open Source Per Say__
+
+The distribution binary is not an open source software in itself, since I had to sign it and didn't want others to be able to change what I had signed. However the app is only 5 lines of code so if you don't trust the binary, you can copy paste these fives lines into the Script Editor.app software and export it to an Application:
+
+```applescript
+tell application "System Events"
+  tell appearance preferences
+    set dark mode to not dark mode
+  end tell
+end tell
+```

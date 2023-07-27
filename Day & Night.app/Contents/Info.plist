@@ -11,7 +11,7 @@
 	<key>CFBundleIconFile</key>
 	<string>applet</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.apple.ScriptEditor.id.Toggle-Appearance</string>
+	<string>com.apple.ScriptEditor.id.Day---Night</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -66,7 +66,7 @@
 		<key>name</key>
 		<string>ScriptWindowState</string>
 		<key>positionOfDivider</key>
-		<real>443</real>
+		<real>419</real>
 		<key>savedFrame</key>
 		<string>187 179 700 678 0 0 1440 875 </string>
 		<key>selectedTab</key>
